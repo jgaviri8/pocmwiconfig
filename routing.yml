@@ -1,2 +1,5 @@
 routing:
+  config:
     response: "Respuesta servida desde un JSON"
+    defaultService: "defaultService"
+    timeout: 5000
