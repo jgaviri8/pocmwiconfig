@@ -1,5 +1,2 @@
-{
-    "routing": {
-        "response": "Respuesta servida desde un JSON"
-    }
-}
+routing:
+    response: "Respuesta servida desde un JSON"
