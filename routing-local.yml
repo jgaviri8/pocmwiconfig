@@ -1,7 +1,7 @@
 {
   "routing": {
     "config": {
-      "response": "Respuesta servida desde un JSON dentro de un archivo .yml",
+      "response": "Respuesta servida desde un JSON dentro de un archivo .yml 2026-01-22 14:15",
       "defaultService": "defaultService",
       "timeout": 5000
     }
