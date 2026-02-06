@@ -3,7 +3,40 @@
     "config": {
       "response": "Respuesta servida desde un JSON dentro de un archivo .yml 2026-02-05 09:24",
       "defaultService": "defaultService",
-      "timeout": 5000
+      "timeout": 5000,
+      "products": [
+        {
+          "name": "product A",
+          "quoter": {
+            "type": "sync http",
+            "config": {
+              "url": "http://localhost:8080/service-a/quoter",
+              "method": "GET",
+              "timeout": 2000
+            }
+          }
+        },
+        {
+          "name": "product B",
+          "quoter": {
+            "type": "sync http",
+            "config": {
+              "url": "http://localhost:8080/service-b/quoter",
+              "method": "GET",
+              "timeout": 2000
+            }
+          }
+        },
+        {
+          "name": "product C",
+          "quoter": {
+            "type": "calculator",
+            "config": {
+              "expression": "basePrice * 0.9"
+            }
+          }
+        }
+      ]
     }
   }
 }
