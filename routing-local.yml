@@ -32,7 +32,7 @@
           "quoter": {
             "type": "calculator",
             "config": {
-              "expression": "basePrice * 0.9"
+              "expression": "#basePrice * 0.9"
             }
           }
         }
