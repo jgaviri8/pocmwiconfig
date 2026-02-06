@@ -10,8 +10,8 @@
           "quoter": {
             "type": "sync http",
             "config": {
-              "urlBase: "https://jsonplaceholder.typicode.com"
-              "url": "/todos/6",
+              "urlBase: "https://jsonplaceholder.typicode.com",
+              "uri": "/todos/6",
               "method": "GET",
               "timeout": 15000
             }
@@ -22,8 +22,8 @@
           "quoter": {
             "type": "sync http",
             "config": {
-              "urlBase: "https://jsonplaceholder.typicode.com"
-              "url": "/comments/5",
+              "urlBase: "https://jsonplaceholder.typicode.com",
+              "uri": "/comments/5",
               "method": "GET",
               "timeout": 15000
             }
