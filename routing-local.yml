@@ -10,9 +10,10 @@
           "quoter": {
             "type": "sync http",
             "config": {
-              "url": "http://localhost:8080/service-a/quoter",
+              "urlBase: "https://jsonplaceholder.typicode.com"
+              "url": "/todos/6",
               "method": "GET",
-              "timeout": 2000
+              "timeout": 15000
             }
           }
         },
@@ -21,9 +22,10 @@
           "quoter": {
             "type": "sync http",
             "config": {
-              "url": "http://localhost:8080/service-b/quoter",
+              "urlBase: "https://jsonplaceholder.typicode.com"
+              "url": "/comments/5",
               "method": "GET",
-              "timeout": 2000
+              "timeout": 15000
             }
           }
         },
