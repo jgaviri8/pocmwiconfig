@@ -35,6 +35,15 @@
               "expression": "#basePrice * 0.9"
             }
           }
+        },
+        {
+          "name": "product verdolaga",
+          "quoter": {
+            "type": "calculator",
+            "config": {
+              "expression": "#minPrice + 10000"
+            }
+          }
         }
       ]
     }
