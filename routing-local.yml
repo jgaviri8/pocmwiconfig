@@ -46,6 +46,15 @@
               "expression": "#minPrice + 10000"
             }
           }
+        },
+        {
+          "name": "product D",
+          "quoter": {
+            "type": "calculator",
+            "config": {
+              "expression": "#A * #B + #C"
+            }
+          }
         }
       ]
     }
